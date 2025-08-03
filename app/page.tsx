@@ -12,6 +12,7 @@ export default function Home() {
       <NewConsultationPlans />
       <UpdatedWhyVedicMitra />
       <UpdatedFooter />
+      <link rel="icon" href="./placeholder-user.jpg" type="image/x-icon" />
     </div>
   )
 }

@@ -44,7 +44,7 @@ export function MobileWhyVedicMitra() {
     <section className="py-12 px-4 relative z-10">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Why Choose VedicMitra?</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4"></h2>
           <p className="text-base sm:text-lg text-gray-300">Experience the power of authentic Vedic wisdom</p>
         </div>
 

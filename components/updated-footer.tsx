@@ -169,8 +169,7 @@ export function UpdatedFooter() {
                 <div>
                   <p className="text-sm text-gray-400">Location</p>
                   <p className="text-white text-sm">
-                    Puri, Odisha
-                    <br />
+                    Puri, Odisha,
                     India
                   </p>
                 </div>

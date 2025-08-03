@@ -8,7 +8,7 @@ export function CSSZodiacWheel() {
     { symbol: "♋", name: "Cancer", angle: 90, color: "text-blue-400" },
     { symbol: "♌", name: "Leo", angle: 120, color: "text-orange-400" },
     { symbol: "♍", name: "Virgo", angle: 150, color: "text-emerald-400" },
-    { symbol: "♎", name: "Libra", angle: 180, color: "text-pink-400" },
+    { symbol: "♎", name: "Libra", angle: 180, color: "text-pink-400" }, 
     { symbol: "♏", name: "Scorpio", angle: 210, color: "text-purple-400" },
     { symbol: "♐", name: "Sagittarius", angle: 240, color: "text-indigo-400" },
     { symbol: "♑", name: "Capricorn", angle: 270, color: "text-teal-400" },

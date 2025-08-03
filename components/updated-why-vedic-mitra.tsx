@@ -58,11 +58,11 @@ export function UpdatedWhyVedicMitra() {
 
   const testimonials = [
     {
-      name: "Priya Sharma",
+      name: "Soubhagya Mishra",
       location: "Mumbai, Maharashtra",
       text: "VedicMitra's guidance helped me choose the right career path. The predictions about my job change came true exactly as predicted. Highly recommended!",
       rating: 5,
-      image: "/placeholder.svg?height=60&width=60",
+      image: "\WhatsApp Image 2025-08-03 at 23.35.58_95902202.jpg?height=60&width=60",
       consultation: "Career Guidance",
     },
     {
@@ -70,23 +70,23 @@ export function UpdatedWhyVedicMitra() {
       location: "Delhi, NCR",
       text: "Amazing accuracy in relationship predictions. The astrologer provided practical solutions that actually worked. My marriage is now much happier!",
       rating: 5,
-      image: "/placeholder.svg?height=60&width=60",
+      image: "/WhatsApp Image 2025-08-03 at 23.38.19_51758e8b.jpg?height=60&width=60",
       consultation: "Relationship Analysis",
     },
     {
-      name: "Anita Patel",
+      name: "Anit Patel",
       location: "Ahmedabad, Gujarat",
       text: "The gemstone recommendations and mantras suggested have brought positive changes in my life. Very knowledgeable and authentic astrologers.",
       rating: 5,
-      image: "/placeholder.svg?height=60&width=60",
+      image: "/Screenshot 2025-08-03 234207.png?height=60&width=60",
       consultation: "Life Analysis",
     },
     {
-      name: "Suresh Reddy",
+      name: "Chandan Reddy",
       location: "Hyderabad, Telangana",
       text: "Business predictions were spot on! The timing for launching my new venture was perfect. Made significant profits as predicted.",
       rating: 5,
-      image: "/placeholder.svg?height=60&width=60",
+      image: "/Screenshot 2025-06-20 024904.png?height=60&width=60",
       consultation: "Business Consultation",
     },
   ]
@@ -103,9 +103,9 @@ export function UpdatedWhyVedicMitra() {
       <div className="container mx-auto max-w-7xl">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <Badge className="bg-gradient-to-r from-yellow-400/20 to-orange-500/20 text-yellow-400 border-yellow-400/30 px-4 py-2 mb-6">
+          {/* <Badge className="bg-gradient-to-r from-yellow-400/20 to-orange-500/20 text-yellow-400 border-yellow-400/30 px-4 py-2 mb-6">
             Why Choose VedicMitra
-          </Badge>
+          </Badge> */}
           <h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 font-serif">
             Experience{" "}
             <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
