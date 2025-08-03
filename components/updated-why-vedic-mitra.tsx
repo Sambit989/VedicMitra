@@ -58,7 +58,7 @@ export function UpdatedWhyVedicMitra() {
 
   const testimonials = [
     {
-      name: "Soubhagya Mishra",
+      name: "Soubhagya Bhoi",
       location: "Mumbai, Maharashtra",
       text: "VedicMitra's guidance helped me choose the right career path. The predictions about my job change came true exactly as predicted. Highly recommended!",
       rating: 5,
@@ -66,7 +66,7 @@ export function UpdatedWhyVedicMitra() {
       consultation: "Career Guidance",
     },
     {
-      name: "Rajesh Kumar",
+      name: "Rudra Satapathy",
       location: "Delhi, NCR",
       text: "Amazing accuracy in relationship predictions. The astrologer provided practical solutions that actually worked. My marriage is now much happier!",
       rating: 5,
