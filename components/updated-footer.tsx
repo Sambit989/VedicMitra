@@ -169,7 +169,7 @@ export function UpdatedFooter() {
                 <div>
                   <p className="text-sm text-gray-400">Location</p>
                   <p className="text-white text-sm">
-                    Mumbai, Maharashtra
+                    Puri, Odisha
                     <br />
                     India
                   </p>
@@ -204,13 +204,13 @@ export function UpdatedFooter() {
                   <a href="https://www.facebook.com/share/1AuUtZ9caV/" target="_blank" rel="noopener noreferrer">
                     <Facebook className="h-5 w-5" />
                   </a>
-                </Button>
+                {/* </Button>
                 <Button size="icon" variant="ghost" className="text-gray-400 hover:text-cyan-400 hover:bg-cyan-400/10">
                   <Twitter className="h-5 w-5" />
                 </Button>
                 <Button size="icon" variant="ghost" className="text-gray-400 hover:text-red-400 hover:bg-red-400/10">
                   <Youtube className="h-5 w-5" />
-                </Button>
+                </Button> */}
               </div>
             </div>
           </div>
@@ -225,6 +225,7 @@ export function UpdatedFooter() {
             <div className="text-center lg:text-left">
               <p className="text-gray-400 text-sm">© {new Date().getFullYear()} VedicMitra. All rights reserved.</p>
               <p className="text-gray-500 text-xs mt-1">Authentic Vedic Astrology Services | Certified Astrologers</p>
+              <p className="text-gray-500 text-xs mt-1">Developed By Sambit</p>
             </div>
 
             {/* Legal Links */}
