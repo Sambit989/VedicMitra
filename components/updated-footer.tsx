@@ -204,8 +204,8 @@ export function UpdatedFooter() {
                   <a href="https://www.facebook.com/share/1AuUtZ9caV/" target="_blank" rel="noopener noreferrer">
                     <Facebook className="h-5 w-5" />
                   </a>
-                {/* </Button>
-                <Button size="icon" variant="ghost" className="text-gray-400 hover:text-cyan-400 hover:bg-cyan-400/10">
+                </Button>
+                {/* <Button size="icon" variant="ghost" className="text-gray-400 hover:text-cyan-400 hover:bg-cyan-400/10">
                   <Twitter className="h-5 w-5" />
                 </Button>
                 <Button size="icon" variant="ghost" className="text-gray-400 hover:text-red-400 hover:bg-red-400/10">
