@@ -1,14 +1,14 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { MessageCircle } from "lucide-react"
+import { MessageCircle } from 'lucide-react'
 import StaticZodiacWheel from "@/components/static-zodiac-wheel"
 
 export function MobileFirstHero() {
   const whatsappLink = "https://wa.me/919439418176"
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-16 z-10">
+    <section className="relative min-h-screen flex items-center justify-center px-4 py-16 z-10 pt-24">
       <div className="container mx-auto max-w-6xl">
         {/* Mobile-First Layout */}
         <div className="flex flex-col items-center text-center space-y-12">

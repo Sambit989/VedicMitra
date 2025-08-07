@@ -1,3 +1,4 @@
+import { Header } from "@/components/header"
 import { MobileFirstHero } from "@/components/mobile-first-hero"
 import { NewConsultationPlans } from "@/components/new-consultation-plans"
 import { UpdatedWhyVedicMitra } from "@/components/updated-why-vedic-mitra"
@@ -8,11 +9,12 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-black relative overflow-hidden">
       <ProfessionalCosmicBackground />
+       <Header />
       <MobileFirstHero />
       <NewConsultationPlans />
       <UpdatedWhyVedicMitra />
       <UpdatedFooter />
-      <link rel="icon" href="./placeholder-user.jpg" type="image/x-icon" />
+      <link rel="icon" href="\images\vedic-mitra-logo.png" type="image/x-icon" />
     </div>
   )
 }
