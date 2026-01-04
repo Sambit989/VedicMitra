@@ -8,7 +8,7 @@ export function CSSZodiacWheel() {
     { symbol: "♋", name: "Cancer", angle: 90, color: "text-blue-400" },
     { symbol: "♌", name: "Leo", angle: 120, color: "text-orange-400" },
     { symbol: "♍", name: "Virgo", angle: 150, color: "text-emerald-400" },
-    { symbol: "♎", name: "Libra", angle: 180, color: "text-pink-400" }, 
+    { symbol: "♎", name: "Libra", angle: 180, color: "text-pink-400" },
     { symbol: "♏", name: "Scorpio", angle: 210, color: "text-purple-400" },
     { symbol: "♐", name: "Sagittarius", angle: 240, color: "text-indigo-400" },
     { symbol: "♑", name: "Capricorn", angle: 270, color: "text-teal-400" },
@@ -20,7 +20,7 @@ export function CSSZodiacWheel() {
     <div className="relative w-full h-full">
       {/* Multiple rotating rings for depth */}
       <div
-        className="absolute inset-0 rounded-full border-4 border-gradient-to-r from-yellow-400/60 to-orange-500/60 animate-spin shadow-2xl"
+        className="absolute inset-0 rounded-full border-4 border-orange-500/60 animate-spin shadow-2xl"
         style={{
           animationDuration: "60s",
           background:
@@ -29,7 +29,7 @@ export function CSSZodiacWheel() {
       ></div>
 
       <div
-        className="absolute inset-6 rounded-full border-3 border-orange-400/50 animate-spin"
+        className="absolute inset-6 rounded-full border-[3px] border-orange-400/50 animate-spin"
         style={{ animationDuration: "45s", animationDirection: "reverse" }}
       ></div>
 
@@ -62,17 +62,18 @@ export function CSSZodiacWheel() {
 
       {/* Zodiac Signs */}
       {zodiacSigns.map((sign, index) => {
-        const radius = 200
+        const radius = 40
         const angleRad = (sign.angle * Math.PI) / 180
-        const x = Math.cos(angleRad) * radius
-        const y = Math.sin(angleRad) * radius
+        const x = 50 + Math.cos(angleRad) * radius
+        const y = 50 + Math.sin(angleRad) * radius
 
         return (
           <div
             key={index}
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center group cursor-pointer"
+            className="absolute transform -translate-x-1/2 -translate-y-1/2 text-center group cursor-pointer"
             style={{
-              transform: `translate(${x}px, ${y}px) translate(-50%, -50%)`,
+              left: `${x}%`,
+              top: `${y}%`,
             }}
           >
             <div
@@ -90,17 +91,18 @@ export function CSSZodiacWheel() {
       {/* Decorative stars */}
       {Array.from({ length: 32 }).map((_, i) => {
         const angle = (i / 32) * 360
-        const radius = 160 + (i % 3) * 20
+        const radius = 32 + (i % 3) * 4
         const angleRad = (angle * Math.PI) / 180
-        const x = Math.cos(angleRad) * radius
-        const y = Math.sin(angleRad) * radius
+        const x = 50 + Math.cos(angleRad) * radius
+        const y = 50 + Math.sin(angleRad) * radius
 
         return (
           <div
             key={i}
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            className="absolute transform -translate-x-1/2 -translate-y-1/2"
             style={{
-              transform: `translate(${x}px, ${y}px) translate(-50%, -50%)`,
+              left: `${x}%`,
+              top: `${y}%`,
               animationDelay: `${i * 0.1}s`,
             }}
           >
