@@ -55,7 +55,7 @@ export function NewConsultationPlans() {
     },
     {
       number: "4",
-      title: "Manifestation & Rituals (Money, Love, Desires)(Call Avaliable)",
+      title: "(Kundalini analysis+palm reading) On Call",
       price: 555,
       duration: "45–60 Minutes",
       whatsappText: "I%20want%20Plan%204%3A%20Manifestation%20%26%20Rituals%20session%20with%20VedicMitra",
