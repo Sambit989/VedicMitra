@@ -15,6 +15,13 @@ export function NewConsultationPlans() {
       whatsappText:
         "I%20want%20Plan%201%3A%20Vedic%20Prediction%20with%20Birth%20Details%20%2B%20Palmistry%20session%20with%20VedicMitra",
       features: [
+        "Detailed Kundali(Birth Chart) Analysis",
+        "Palm Reading",
+        "Career Guidance",
+        "Relationship Analysis",
+        "Job Opportunity",
+        "Childbirth Prediction",
+        "Astrological remedy Suggestions",
         "Only Chat",
       ],
       popular: true,
@@ -48,8 +55,8 @@ export function NewConsultationPlans() {
     },
     {
       number: "4",
-      title: "Manifestation & Rituals (Money, Love, Desires)",
-      price: 444,
+      title: "Manifestation & Rituals (Money, Love, Desires)(Call Avaliable)",
+      price: 555,
       duration: "45–60 Minutes",
       whatsappText: "I%20want%20Plan%204%3A%20Manifestation%20%26%20Rituals%20session%20with%20VedicMitra",
       features: [
